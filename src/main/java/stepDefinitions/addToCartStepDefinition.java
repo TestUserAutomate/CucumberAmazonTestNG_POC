@@ -24,7 +24,7 @@ public void setup() {
 
 @Given("^user is on Amazon Home page$")
 public void user_is_on_Amazon_Home_page() throws Throwable {
-	 System.setProperty("webdriver.chrome.driver","F:\\Selenium_Projects\\Driver\\chromedriver-86.exe");
+	 System.setProperty("webdriver.chrome.driver","C:\\Users\\microsoft\\eclipse-workspace\\CucumberAmazonTestNG_POC\\Driver\\chromedriver-86.exe");
 	 driver = new ChromeDriver();
 	 driver.get("https://www.amazon.in/");
 }
